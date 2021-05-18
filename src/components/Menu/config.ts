@@ -38,45 +38,67 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/pools',
   },
-  {
-    label: 'Prediction',
-    icon: 'PredictionsIcon',
-    href: '/prediction',
-    status: {
-      text: 'BETA',
-      color: 'warning',
-    },
-  },
+//  {
+//  label: 'Prediction',
+//  icon: 'PredictionsIcon',
+//  href: '/prediction',
+//  status: {
+//    text: 'BETA',
+//    color: 'warning',
+//  },
+//},
   {
     label: 'Lottery',
     icon: 'TicketIcon',
     href: '/lottery',
   },
+//{
+//  label: 'Collectibles',
+//  icon: 'NftIcon',
+//  href: '/collectibles',
+//},
+//{
+//  label: 'Team Battle',
+//  icon: 'TeamBattleIcon',
+//  href: '/competition',
+//},
+//{
+//  label: 'Teams & Profile',
+//  icon: 'GroupsIcon',
+//  items: [
+//      {
+//        label: 'Leaderboard',
+//        href: '/teams',
+//      },
+//      {
+//        label: 'Task Center',
+//        href: '/profile/tasks',
+//      },
+//      {
+//        label: 'Your Profile',
+//        href: '/profile',
+//      },
+//    ],
+//  },
   {
-    label: 'Collectibles',
-    icon: 'NftIcon',
-    href: '/collectibles',
-  },
-  {
-    label: 'Team Battle',
-    icon: 'TeamBattleIcon',
-    href: '/competition',
-  },
-  {
-    label: 'Teams & Profile',
-    icon: 'GroupsIcon',
+    label: 'Features',
+    icon: 'InfoIcon',
     items: [
       {
-        label: 'Leaderboard',
-        href: '/teams',
+        label: 'Automatic LP',
+        href: 'https://pancakeswap.info',
       },
       {
-        label: 'Task Center',
-        href: '/profile/tasks',
+        label: 'Automatic Burning',
+        href: 'https://pancakeswap.info/tokens',
       },
       {
-        label: 'Your Profile',
-        href: '/profile',
+        label: 'Harvest Lockup',
+        href: 'https://pancakeswap.info/pairs',
+      },
+      {
+        label: 'Anti-Whale',
+        href: 'https://pancakeswap.info/accounts',
       },
     ],
   },
